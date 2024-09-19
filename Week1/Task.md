@@ -9,7 +9,7 @@ to help
 [click here](https://github.com/darrened/526/tree/main/Week1) to go to the directory.
 
 It contains the following files:
-* __mazes/maze1.txt__ - A demo map, s=start, g=goal, x=obstacle. Obviously you can also create you own
+* __mazes/maze1.txt__ - A demo map, s=start, g=goal, x=obstacle. Obviously you can also create your own
 * __utils.py__ - Includes some useful functions including a map importer and will calculate the manhattan distance for you
 * __pathfinding.py__ -  where you will write the code for the A* algorithm, guided by the comments
 * __tui.py__ - Where you will create a simple tui interface to show the path taken
