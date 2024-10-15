@@ -3,7 +3,7 @@
 This week we looked at intelligent agents. Now you are tasked with building a system based of the scenario from the 
 lecture
 
-You can find a very simple demo [Environment](https://github.com/darrened/526/tree/main/Week4/demo)
+You can find a very simple demo [here](https://github.com/darrened/526/tree/main/Week4/demo)
 
 This is a large programming task, it is highly likely you will need to revisit it over the week
 
@@ -67,12 +67,12 @@ Modify the above program so that the robot:
   * This map will just be all question marks
   * As the robot moves around sensing, it should uncover/update more of the map 
 
-## Stage 5
+### Stage 5
 Modify the above program so that the robot:
 * Uses its map to move directly to any known locations of flames. It should use A* to do this
 * Uses its own map when using the A* to find its way back to the water station
 
-## Stage 6
+### Stage 6
 Modify the above program so that:
 * Flames are now agents
   * These flames will sense the surrounding cells.
