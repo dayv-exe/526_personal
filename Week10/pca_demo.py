@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("../Week9/iris.csv")
 
 selected_columns = ["sepal_length", "sepal_width", "petal_length", "petal_width"]
 df_selected = df[selected_columns]
